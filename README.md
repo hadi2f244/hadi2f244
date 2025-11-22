@@ -1,16 +1,35 @@
-## Hi there 👋
+## Hadi Azaddel – DevOps & Platform Engineering
 
-<!--
-**hadi2f244/hadi2f244** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository powers my public professional site and portfolio, hosted via GitHub Pages at **https://hadiazaddel.ir**.
 
-Here are some ideas to get you started:
+### Overview
+I focus on DevOps tooling maturity, automated testing for infrastructure (especially Ansible), delivery reliability, and actionable engineering metrics.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Site Structure
+- Home: Value proposition & highlights
+- Resume: PDF inline + download
+- Projects: Selected engineering/automation initiatives
+- Experience: Role and impact summaries (expanding)
+- Skills: Core, supporting, and growth areas
+- Blog: Curated summaries of Medium articles (canonical to Medium)
+- Contact: Direct links (email, LinkedIn, GitHub, Medium)
+
+### Medium Articles Referenced
+1. Ten Maturity Principles of DevOps Tooling
+2. Ansible Code Testing – Part 2 – Writing Tests
+3. Ansible Code Testing – Part 1 – Test Environment Automation
+
+### Next Enhancements
+- Add Google Analytics (GA4 Measurement ID)
+- Search Console domain verification
+- Image optimizations + Open Graph preview image
+- Optional GitHub Action to refresh Medium summaries from RSS
+
+### Deployment
+GitHub Pages automatically builds from `main`. Custom domain configured via `CNAME`.
+
+### Contact
+Email: contact@hadiazaddel.ir · LinkedIn: https://www.linkedin.com/in/hadi-azaddel · Medium: https://medium.com/@m.h.azaddel
+
+---
+*Focused on reliable, testable, and measurable platform engineering.*

@@ -1,0 +1,16 @@
+{%- comment -%} JSON-LD Person schema {%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}",
+  "sameAs": [
+    "https://github.com/{{ site.social.github }}",
+    "{{ site.social.medium }}",
+    "{{ site.social.linkedin }}"
+  ],
+  "jobTitle": "DevOps / Platform Engineer",
+  "description": "{{ site.description | strip_newlines }}"
+}
+</script>

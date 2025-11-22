@@ -1,0 +1,38 @@
+title: "Hadi Azaddel – DevOps & Platform Engineering"
+name: "Hadi Azaddel"
+description: "DevOps tooling maturity, Ansible testing, platform engineering. Resume, projects, Medium summaries."
+url: "https://hadiazaddel.ir"
+baseurl: ""
+lang: en
+permalink: pretty
+theme: minima
+# If you later switch to remote theme uncomment below:
+# remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+# google_analytics: G-XXXXXXXXXX  # Replace with your GA4 Measurement ID
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+collections:
+  posts:
+    output: true
+
+# Social / contact data used for SEO & JSON-LD
+social:
+  github: "hadi2f244"
+  medium: "https://medium.com/@m.h.azaddel"
+  linkedin: "https://www.linkedin.com/in/hadi-azaddel" # adjust if different
+  email: "mailto:contact@hadiazaddel.ir" # update if needed
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Hadi Azaddel"
+      lang: en
